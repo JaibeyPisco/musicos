@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:id="@+id/nameTexView"
-        android:layout_width="111dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="124dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tv_singerAge"
         android:layout_width="112dp"
-        android:layout_height="37dp"
+        android:layout_height="43dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="88dp"
         android:text="TextView"
@@ -27,8 +18,8 @@
 
     <TextView
         android:id="@+id/tv_country"
-        android:layout_width="111dp"
-        android:layout_height="38dp"
+        android:layout_width="132dp"
+        android:layout_height="41dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="60dp"
         android:text="TextView"
@@ -36,12 +27,22 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_singerAge" />
 
     <TextView
+        android:id="@+id/nameTexView"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="124dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/tv_famoussong"
-        android:layout_width="113dp"
-        android:layout_height="36dp"
+        android:layout_width="201dp"
+        android:layout_height="66dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="84dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_country" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
