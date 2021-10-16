@@ -22,7 +22,7 @@ public class ProfileSingerActiviy extends AppCompatActivity {
 
         name = "name no set";
         Bundle extras  = getIntent().getExtras();
-        if (extras != null){
+        if (extras != null){git
             name = extras.getString("name");
             age = extras.getString("singerAge");
             country = extras.getString("country");
@@ -30,6 +30,10 @@ public class ProfileSingerActiviy extends AppCompatActivity {
 
         }
         nameTexView.setText(name);
+        ageTextView.setText(age);
+        countryTextView.setText(country);
+        famousSongTextView.setText(country);
+
 
     }
 }
