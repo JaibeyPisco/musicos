@@ -19,23 +19,29 @@
         android:id="@+id/tv_singerAge"
         android:layout_width="112dp"
         android:layout_height="37dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="88dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="177dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTexView" />
 
     <TextView
         android:id="@+id/tv_country"
         android:layout_width="111dp"
         android:layout_height="38dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="60dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="236dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_singerAge" />
 
     <TextView
         android:id="@+id/tv_famoussong"
         android:layout_width="113dp"
         android:layout_height="36dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="84dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="294dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_country" />
 </androidx.constraintlayout.widget.ConstraintLayout>
